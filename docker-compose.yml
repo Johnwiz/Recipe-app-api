@@ -1,5 +1,8 @@
 version: "3.9"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4573af660b6a6dbb9fbdd0aba4ff87cf77d06b3a
 services:
   app:
     build:
@@ -10,5 +13,10 @@ services:
       - "8000:8000"
     volumes:
       - ./app:/app
+<<<<<<< HEAD
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
+=======
+    command: sh -c "python manage.py runserver 0.0.0.0:8000"
+   
+>>>>>>> 4573af660b6a6dbb9fbdd0aba4ff87cf77d06b3a
