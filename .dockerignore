@@ -1,28 +1,15 @@
-<<<<<<< HEAD
 # Git
-.Git
-.gitignore
-
-#Docker
-.Docker
-=======
-#Git
 .git
 .gitignore
 
-#Docker
+# Docker
 .docker
->>>>>>> 4573af660b6a6dbb9fbdd0aba4ff87cf77d06b3a
 
-#Python
+# Python
 app/__pycache__/
 app/*/__pycache__/
 app/*/*/__pycache__/
 app/*/*/*/__pycache__/
 .env/
 .venv/
-<<<<<<< HEAD
 venv/
-=======
-venv/
->>>>>>> 4573af660b6a6dbb9fbdd0aba4ff87cf77d06b3a
